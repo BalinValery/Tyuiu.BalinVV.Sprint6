@@ -8,7 +8,9 @@ namespace Tyuiu.BalinVV.Sprint6.Task0.V17.Test
         public void TestMethod1()
         {
             Class1 ds = new Class1();
-            Assert.AreEqual(2.718, ds.Calculate(1));
+            double res = ds.Calculate(3);
+            double wait = 6.695;
+            Assert.AreEqual(wait, res);
         }
     }
 }
