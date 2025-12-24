@@ -7,7 +7,7 @@ namespace Tyuiu.BalinVV.Sprint6.Task0.V17.Test
         [TestMethod]
         public void TestMethod1()
         {
-            Class1 ds = new Class1();
+            DataService ds = new DataService();
             double res = ds.Calculate(3);
             double wait = 6.695;
             Assert.AreEqual(wait, res);
