@@ -8,9 +8,9 @@ namespace Tyuiu.BalinVV.Sprint6.Task3.V1
             InitializeComponent();
 
             DataService ds = new DataService();
-            int[,] mtrx = new int[5, 5] { { 25, 20, 28, 2, 6},
-                                      { 19, 9, 18, -7, 24},
-                                      { 21, 16, 5, -7, -8},
+            int[,] mtrx = new int[5, 5] { { 25, 20, 28, 2, 6 },
+                                      { 19, 9, 18, -7, 24 },
+                                      { 21, 16, 5, -7, -8 },
                                       { 30, -13, 1, -15, 2 },
                                       { 31, 9, -3, -9, -18 } };
         private void buttonDone_ClickBVV(object sender, EventArgs e)
